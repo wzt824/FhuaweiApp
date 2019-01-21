@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/* CSS Document */
+body, p, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, td, input, select, option, textarea {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%; }
+
+html {
+  /*	font-size: 100px;*/
+  font-size: 18.52vw; }
+
+a {
+  text-decoration: none; }
+
+ol, ul {
+  list-style: none; }
+
+img {
+  border: none;
+  display: block; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+body {
+  font-family: "微软雅黑",Arial;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.content {
+  width: 100%;
+  -webkit-flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #eaeaea; }
+
+header {
+  height: 0.6rem;
+  padding: .23rem;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  -webkit-align-items: center; }
+  header span {
+    font-size: .3rem;
+    color: #007dfe; }
+
+.sec-form .sec-loge {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-justify-content: space-between; }
+  .sec-form .sec-loge p {
+    margin: .8rem 0 .5rem; }
+    .sec-form .sec-loge p img {
+      width: .55rem;
+      height: .55rem; }
+  .sec-form .sec-loge h3 {
+    color: #191919;
+    font-size: .35rem;
+    padding-bottom: 0.38rem; }
+.sec-form .form {
+  padding: 0 .23rem;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+  .sec-form .form .user {
+    height: .78rem;
+    display: -webkit-flex;
+    -webkit-flex-direction: column; }
+    .sec-form .form .user input {
+      width: 100%;
+      height: .55rem;
+      border: 0;
+      border-bottom: .01rem solid #cccccc; }
+    .sec-form .form .user p {
+      height: .2rem; }
+  .sec-form .form .pass {
+    height: .78rem;
+    position: relative;
+    display: -webkit-flex;
+    -webkit-flex-direction: column; }
+    .sec-form .form .pass input {
+      width: 100%;
+      height: .55rem;
+      border: 0;
+      border-bottom: .01rem solid #cccccc; }
+    .sec-form .form .pass p {
+      height: .2rem; }
+    .sec-form .form .pass i {
+      position: absolute;
+      right: 0;
+      top: 20%;
+      font-size: .33rem;
+      color: #181818; }
+  .sec-form .form .message {
+    margin-bottom: .28rem;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-align-items: center; }
+    .sec-form .form .message .left {
+      display: -webkit-flex; }
+      .sec-form .form .message .left a {
+        color: #015bbb;
+        font-size: .17rem; }
+    .sec-form .form .message .right {
+      color: #191919;
+      font-size: .17rem;
+      display: -webkit-flex;
+      -webkit-align-items: center; }
+      .sec-form .form .message .right input {
+        width: .29rem;
+        height: .29rem; }
+      .sec-form .form .message .right label {
+        padding-left: .17rem; }
+  .sec-form .form .login {
+    display: -webkit-flex;
+    -webkit-justify-content: center; }
+    .sec-form .form .login input {
+      width: 2.89rem;
+      height: .49rem;
+      background-color: #b2d8ff;
+      color: #ffffff;
+      border: 0;
+      font-size: .2rem; }
+.sec-form .reg-user {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  margin: .3rem 0; }
+  .sec-form .reg-user a {
+    color: #176cc6;
+    font-size: .18rem; }
+.sec-form .forget {
+  margin-bottom: .6rem;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center; }
+  .sec-form .forget a {
+    color: #176cc6;
+    font-size: .18rem; }
+
+footer {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+  footer .login-other {
+    padding: 0 1.1rem; }
+    footer .login-other ul {
+      display: -webkit-flex;
+      -webkit-align-items: center;
+      -webkit-justify-content: space-between; }
+      footer .login-other ul li a {
+        display: -webkit-flex;
+        width: .6rem;
+        height: .6rem;
+        border: 1px solid #e5e5e5;
+        border-radius: 50%;
+        display: -webkit-flex;
+        -webkit-justify-content: center;
+        -webkit-align-items: center; }
+        footer .login-other ul li a i {
+          font-size: .3rem;
+          color: #333333; }
+  footer .more {
+    padding: .4rem 0 .3rem;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center; }
+    footer .more a {
+      color: #176cc6;
+      font-size: .18rem; }
+  footer p {
+    text-align: center;
+    color: #333333;
+    font-size: .15rem; }
+
+/*# sourceMappingURL=login.css.map */
